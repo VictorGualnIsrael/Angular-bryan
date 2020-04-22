@@ -1,0 +1,43 @@
+<div class="cabecera">
+  <div class="logo"><img src="img_avatar.png" alt="B" style="width:100%"></div>
+  <nav>
+  </nav>
+</div>
+<div class="cardDTS">
+  <div class="container">
+    Name: {{name}} <br>
+    DNI: {{dni}} <br>
+    AGE: {{age}}yers
+
+  </div>
+</div>
+
+<div class="card-deck">
+
+  <div class="main" *ngFor="let pro of products">
+    <td>
+      <h1 type="submit" class="card-title">{{pro.cardTitle}}</h1>
+    </td>
+    <img class="card-img-top" src="..." alt="Card image cap">{{pro.cardImageUrl}}
+    <td>
+      <p type="text" class="card-text">{{pro.cardDescription}}</p>
+    </td>
+  </div>
+</div>
+
+<div class="rectangulo">
+  <div class="md-form">
+    <input type="search" [(ngModel)]="searchText" placeholder="Search text">
+  </div>
+  <ul *ngFor="let programacion products | filter: searchText">
+    <li>{{programacion}}</li>
+  </ul>
+
+  <section class="radio">
+     <h4 class="h4">Filtrar by</h4>
+    <input name="tipo" value="B" type="radio" [(ngModel)]="programacion.tipo" />
+    <i>backend</i>
+    <input name="tipo" value="F" type="radio" [(ngModel)]="programacion.tipo" />
+    <i>frontend</i>
+  </section>
+</div>

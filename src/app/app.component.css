@@ -1,0 +1,89 @@
+.cardDTS {
+ background: #fff;
+ width: 250px;
+ height: 100px;
+ border: 3px solid rgb(221, 216, 216);
+}
+.logo {
+  color: #fff;
+}
+.cabecera {
+  background: #000;
+}
+
+.rectangulo {
+  width: 250px;
+  height: 48rem;
+  border: 3px solid #555;
+  background: #000;
+  position: absolute;
+  top: 7.8rem;
+}
+.rectangulo, input {
+  font-size: 12px;
+  color: #fff;
+}
+.search {
+  border: 0ch;
+  border-radius: 0rem;
+}
+.title {
+  text-align: center;
+}
+
+
+.main {
+  width: 27%;
+  max-width: 123rem;
+  margin: auto;
+  padding: 21px 0;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.main .title-columna {
+	width: calc(100% / 6);
+	text-align: justify;
+}
+
+.main .title-columna:nth-child(2) {
+  padding: 0px 88px;
+  position: absolute;
+    width: 24rem;
+    margin-left: -12rem;
+    top: 65px;
+}
+.main .title-columna:nth-child(3) {
+  float: none;
+  text-align: center;
+  padding-top: 66px;
+}
+
+.main .title-columna input[type="submit"] {
+	border: none;
+	background: #00C6EE;
+	color: #fff;
+	padding: 10px 40px;
+	font-size: 18px;
+	margin-top: 10px;
+	cursor: pointer;
+	font-family: Raleway;
+}
+.card-deck {
+  width: 74rem;
+    position: absolute;
+    top: 0rem;
+    left: 16rem;
+}
+.card-text:last-child {
+border: 3px solid #555;
+}
+.radio {
+  margin-top: 11rem;
+  text-align: center;
+}
+.h4 {
+  margin-right: 5rem;
+  font-size: 13px;
+
+}
